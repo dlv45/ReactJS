@@ -1,0 +1,16 @@
+.main-layout-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  gap: 10px;
+  .title {
+    text-align: center;
+    font-weight: 700;
+    font-size: larger;
+    padding: 20px;
+  }
+  .right-side {
+    padding: 20px;
+  }
+}
